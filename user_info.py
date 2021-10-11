@@ -3,6 +3,11 @@ import instaloader
 
 
 def get_info(username: str, password: str) -> object:
+    
+    """
+    Get bad guys and some info about IG user
+    """
+    
     bguys = bad_guys(username, password)
 
     session = instaloader.Instaloader()
