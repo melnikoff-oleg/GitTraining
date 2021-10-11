@@ -31,3 +31,5 @@ if __name__ == '__main__':
     print('Now HTTP session is opened')
     print(get_info(username, password))
     print('Execution completed')
+
+    # kek lol in feature
