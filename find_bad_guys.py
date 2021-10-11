@@ -10,6 +10,10 @@ def bad_guys(username: str, password: str) -> List[str]:
     session.login(username, password)
 
     profile = instaloader.Profile.from_username(session.context, username)
+
+    print('Successful connection to IG user:', profile.username)
+
+
     for i in profile.get_followees():
         followees.append(i.username)
 
