@@ -26,4 +26,6 @@ if __name__ == '__main__':
     username = input('username: ')
     password = input('password: ')
 
+    print('Now HTTP session is opened')
     print(get_info(username, password))
+    print('Execution completed')
