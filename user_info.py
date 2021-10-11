@@ -16,6 +16,7 @@ def get_info(username: str, password: str) -> object:
     session.login(username, password)
     profile = instaloader.Profile.from_username(session.context, username)
     user_id = profile.userid
+    # number of posts in profile
     media_count = profile.mediacount
 
     return {'User id': user_id, 'Media count': media_count, 'Bad guys count': len(bguys), 'Bad guys': bguys}
