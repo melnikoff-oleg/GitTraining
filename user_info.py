@@ -23,6 +23,8 @@ def get_info(username: str, password: str) -> object:
 
 
 if __name__ == '__main__':
+
+    # take some input
     username = input('username: ')
     password = input('password: ')
 
