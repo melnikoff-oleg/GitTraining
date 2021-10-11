@@ -6,6 +6,8 @@ def get_info(username: str, password: str) -> object:
     
     """
     Get bad guys and some info about IG user
+    
+    You may extend functionality of this module if you wish
     """
     
     bguys = bad_guys(username, password)
