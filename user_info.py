@@ -1,5 +1,6 @@
 from find_bad_guys import bad_guys
 import instaloader
+from time import sleep
 
 
 def get_info(username: str, password: str) -> object:
